@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-red: #E3646E;
+  --main-purple: #BB72E9;
+  --main-blue: #3996DB;
+  --main-green: #82BC4F;
+  --main-yellow: #EABD5F;
+
+  --base-gray-100: #E2E4E9;
+  --base-gray-200: #C0C4CE;
+  --base-gray-300: #878EA1;
+  --base-gray-400: #292C34;
+  --base-gray-500: #16181D;
+  --base-gray-600: #0D0E11;
+
+  --font-family: 'Asap', sans-serif;
+
+  --heiding-1: 700 3.5rem/120% var(--font-family);
+  --heiding-2: 700 1.5rem/120% var(--font-family);
+  --heiding-3: 700 1rem/120% var(--font-family);
+  --text: 400 1rem/120% var(--font-family);
+
+  /* --font-inconsolata: 'Inconsolata', sans-serif;
+  --font-maven-pro: 'Maven Pro', sans-serif; */
+}
+
+body {
+  font: var(--text);
+  background-color: var(--base-gray-400);
+  color: var(--base-gray-200);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3 {
+  font: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1280px;
+  padding-inline: 32px;
+  margin-inline: auto;
+}
+
+.badge {
+  padding: 1rem 0.5rem;
+  background-color: var(--base-gray-400);
+  border-radius: 999px;
+
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
