@@ -1,0 +1,28 @@
+#navigation {
+  padding: 2rem;
+  color: var(--base-gray-100);
+
+  ul {
+    display: flex;
+    gap: 1.5rem;
+
+    a {
+      &::after {
+        content: "";
+        display: block;
+        height: 2px;
+        width: 0;
+        background-color: var(--main-purple);
+        transition: width 0.4s;
+      }
+
+      &:hover {
+        color: var(--main-purple);
+
+        &::after {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
