@@ -11,7 +11,7 @@ header {
   border-radius: 40px;
 }
 
-#navbar {
+header nav {
   padding: 2rem;
   color: var(--base-gray-100);
   background-color: rgb(13, 14, 17, 0.4);
@@ -27,12 +27,12 @@ header {
         display: block;
         height: 2px;
         width: 0;
-        background-color: var(--main-purple);
+        background-color: var(--main-red);
         transition: width 0.4s;
       }
 
       &:hover {
-        color: var(--main-purple);
+        color: var(--main-red);
 
         &::after {
           width: 100%;
