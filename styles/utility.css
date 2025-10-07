@@ -33,3 +33,7 @@
 .text-gray-300 {
   color: var(--base-gray-300);
 }
+
+.leading-2 {
+  line-height: 140%;
+}

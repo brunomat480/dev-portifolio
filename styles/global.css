@@ -15,7 +15,7 @@
   --base-gray-200: #C0C4CE;
   --base-gray-300: #878EA1;
   --base-gray-400: #292C34;
-  --base-gray-500: #16181D;
+  --base-gray-500: #16181d;
   --base-gray-600: #0D0E11;
 
   --font-family: 'Asap', sans-serif;
@@ -26,9 +26,10 @@
   --heading-4: 700 0.975rem/120% var(--font-family);
 
   --text: 700 1rem/120% var(--font-family);
+}
 
-  /* --font-inconsolata: 'Inconsolata', sans-serif;
-  --font-maven-pro: 'Maven Pro', sans-serif; */
+html {
+  scroll-behavior: smooth;
 }
 
 body {

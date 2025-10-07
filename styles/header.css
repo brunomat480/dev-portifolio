@@ -1,5 +1,6 @@
-header {
+#header {
   position: fixed;
+  top: 0.5rem;
   right: 0;
   left: 0;
   z-index: 2;
@@ -7,14 +8,13 @@ header {
 
   max-width: 30rem;
   margin: 0 auto;
-
-  border-radius: 40px;
 }
 
 header nav {
   padding: 2rem;
   color: var(--base-gray-100);
   background-color: rgb(13, 14, 17, 0.4);
+  border-radius: 40px;
 
   ul {
     display: flex;

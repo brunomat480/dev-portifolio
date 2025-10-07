@@ -1,5 +1,14 @@
 @media (max-width: 768px) {
+
   #badge-group {
     flex-wrap: wrap;
+  }
+
+  .card-group {
+    flex-wrap: wrap;
+
+    .card {
+      min-width: 100%;
+    }
   }
 }
