@@ -1,0 +1,35 @@
+.text-sm {
+  font: var(--heading-4);
+}
+
+.text-md {
+  font: var(--heading-3);
+}
+
+.text-lg {
+  font: var(--heading-2);
+}
+
+.text-xl {
+  font: var(--heading-1);
+}
+
+.text-red {
+  color: var(--main-red);
+}
+
+.font-inconsolata {
+  font-family: 'Inconsolata', sans-serif;
+}
+
+.font-maven {
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.text-gray-300 {
+  color: var(--base-gray-300);
+}

@@ -20,10 +20,12 @@
 
   --font-family: 'Asap', sans-serif;
 
-  --heiding-1: 700 3.5rem/120% var(--font-family);
-  --heiding-2: 700 1.5rem/120% var(--font-family);
-  --heiding-3: 700 1rem/120% var(--font-family);
-  --text: 400 1rem/120% var(--font-family);
+  --heading-1: 700 3.5rem/120% var(--font-family);
+  --heading-2: 700 1.5rem/120% var(--font-family);
+  --heading-3: 700 1.25rem/120% var(--font-family);
+  --heading-4: 700 0.975rem/120% var(--font-family);
+
+  --text: 700 1rem/120% var(--font-family);
 
   /* --font-inconsolata: 'Inconsolata', sans-serif;
   --font-maven-pro: 'Maven Pro', sans-serif; */
@@ -31,7 +33,7 @@
 
 body {
   font: var(--text);
-  background-color: var(--base-gray-400);
+  background-color: var(--base-gray-500);
   color: var(--base-gray-200);
 }
 
@@ -58,14 +60,4 @@ img {
   max-width: 1280px;
   padding-inline: 32px;
   margin-inline: auto;
-}
-
-.badge {
-  padding: 1rem 0.5rem;
-  background-color: var(--base-gray-400);
-  border-radius: 999px;
-
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
 }
