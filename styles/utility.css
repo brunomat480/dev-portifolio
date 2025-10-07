@@ -26,6 +26,10 @@
   font-weight: 400;
 }
 
+.font-medium {
+  font-weight: 500;
+}
+
 .text-gray-300 {
   color: var(--base-gray-300);
 }
@@ -44,6 +48,10 @@
 
 .text-yellow {
   color: var(--main-yellow);
+}
+
+.text-blue {
+  color: var(--main-blue);
 }
 
 .leading-2 {
