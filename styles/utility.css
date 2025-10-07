@@ -14,10 +14,6 @@
   font: var(--heading-1);
 }
 
-.text-red {
-  color: var(--main-red);
-}
-
 .font-inconsolata {
   font-family: 'Inconsolata', sans-serif;
 }
@@ -32,6 +28,22 @@
 
 .text-gray-300 {
   color: var(--base-gray-300);
+}
+
+.text-gray-100 {
+  color: var(--base-gray-100);
+}
+
+.text-red {
+  color: var(--main-red);
+}
+
+.text-purple {
+  color: var(--main-purple);
+}
+
+.text-yellow {
+  color: var(--main-yellow);
 }
 
 .leading-2 {
