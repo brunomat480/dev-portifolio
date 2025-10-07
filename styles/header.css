@@ -3,18 +3,23 @@ header {
   right: 0;
   left: 0;
   z-index: 2;
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(6px);
+
+  max-width: 30rem;
+  margin: 0 auto;
+
+  border-radius: 40px;
 }
 
 #navbar {
   padding: 2rem;
   color: var(--base-gray-100);
   background-color: rgb(13, 14, 17, 0.4);
-  ;
 
   ul {
     display: flex;
-    gap: 1.5rem;
+    justify-content: center;
+    gap: 2rem;
 
     a {
       &::after {
