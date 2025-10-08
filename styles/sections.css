@@ -59,6 +59,23 @@ section header {
     }
   }
 
+  .download-curriculum {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    i {
+      font-size: 1.5rem;
+    }
+
+    a {
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
   a {
     i {
       font-size: 2rem;
@@ -139,8 +156,6 @@ section header {
       }
 
       figure div {
-        overflow: hidden;
-
         img {
           width: 100%;
           object-fit: cover;
