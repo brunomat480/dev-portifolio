@@ -122,10 +122,12 @@ section header {
     margin-top: 3.5rem;
     display: flex;
     gap: 1.5rem;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
 
     .card {
-      max-width: 20.625rem;
-      min-height: 17.5rem;
+      max-width: 24.3rem;
+      min-height: 24rem;
       border-radius: 12px;
       background-color: var(--base-gray-400);
 
@@ -136,8 +138,15 @@ section header {
         border: 2px solid var(--base-gray-300);
       }
 
-      img {
-        border-radius: 8px;
+      figure div {
+        overflow: hidden;
+
+        img {
+          width: 100%;
+          object-fit: cover;
+          height: 9.875rem;
+          border-radius: 8px;
+        }
       }
 
       figcaption {
