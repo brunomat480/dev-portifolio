@@ -15,7 +15,13 @@
     }
   }
 
-  #hero h1 {
-    font-size: 3rem;
+  #hero {
+    h1 {
+      font-size: 3rem;
+    }
+
+    .welcome {
+      font-size: 1.125rem;
+    }
   }
 }
