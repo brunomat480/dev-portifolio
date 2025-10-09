@@ -1,4 +1,4 @@
-const text = "Hello World! Meu nome é Bruno José";
+const text = "Hello World! Meu nome é Bruno Matias";
 const element = document.getElementById("welcome");
 
 let i = 0;
