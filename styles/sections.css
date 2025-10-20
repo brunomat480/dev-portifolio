@@ -143,6 +143,7 @@ section header {
     flex-wrap: wrap;
 
     .card {
+      width: 100%;
       max-width: 24.3rem;
       min-height: 24rem;
       border-radius: 12px;
