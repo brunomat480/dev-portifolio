@@ -104,6 +104,10 @@ section header {
     i {
       font-size: 1.5rem;
     }
+
+    img {
+      width: 1.5rem;
+    }
   }
 
   .profile-photo {
